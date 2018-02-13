@@ -1,0 +1,180 @@
+TGroupProject
+v5
+r1
+cCheck dependencies
+cCompileC build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/GroupProject" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp
+c0000000055814D780000000000004779
+t1434537336
+s18297
+i<iostream>
+i<fstream>
+i<iomanip>
+i<sstream>
+i<cstring>
+
+N/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/GroupProject
+t1434590180
+s182396
+
+N/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/GroupProject.LinkFileList
+c0000000055821BE20000000000000090
+t1434590178
+s144
+
+N/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o
+t1434590180
+s466624
+
+N/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp
+c00000000000000000000000000000000
+t2
+s0
+i<iostream>
+i<fstream>
+i<iomanip>
+i<sstream>
+i<cstring>
+
+N/Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug/GroupProject
+t1434537259
+s182356
+
+N/Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/GroupProject.LinkFileList
+c00000000555BB273000000000000007A
+t1432072819
+s122
+
+N/Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o
+t1434537259
+s466560
+
+CBuild AST from "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp"
+r0
+
+CBuild AST from /Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8d62dd6c5332bb41^309edd6c5332bb41^---0#1#0#--18"Check dependencies36"E5710FA8-FC36-42D4-BB0B-5C5674464764-
+
+CCompileC build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s456282978.400241
+e456282980.332252
+r1
+xCompileC
+xbuild/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o
+x/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:334:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o            while((temp2 = line.find(" ", space)) >= 0)
+o                         ~ ^~~~~~~~~~~~~~~~~~~~~
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:389:15: warning: unused variable 'row' [-Wunused-variable]
+o    int seat, row, id, count=1;
+o              ^
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:389:9: warning: unused variable 'seat' [-Wunused-variable]
+o    int seat, row, id, count=1;
+o        ^
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:439:20: warning: unused variable 'id' [-Wunused-variable]
+o    int seat, row, id, count=1;
+o                   ^
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:501:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o            while((temp2 = line.find(" ", space)) >= 0)
+o                         ~ ^~~~~~~~~~~~~~~~~~~~~
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:657:11: warning: variable 'id' is used uninitialized whenever 'while' loop exits because its condition is false [-Wsometimes-uninitialized]
+o    while(getline(ifs, line))
+o          ^~~~~~~~~~~~~~~~~~
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:674:8: note: uninitialized use occurs here
+o    if(id == 0)
+o       ^~
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:657:11: note: remove the condition if it is always true
+o    while(getline(ifs, line))
+o          ^~~~~~~~~~~~~~~~~~
+o          true
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:654:23: note: initialize the variable 'id' to silence this warning
+o    int numR, numS, id;
+o                      ^
+o                       = 0
+o/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:700:25: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o                space = line.find(" ", i);
+o                      ~ ^~~~~~~~~~~~~~~~~
+o7 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cppf69a66625332bb41^b30c55645332bb41^-2424"/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:334:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]            while((temp2 = line.find(" ", space)) >= 0)                         ~ ^~~~~~~~~~~~~~~~~~~~~/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:389:15: warning: unused variable 'row' [-Wunused-variable]    int seat, row, id, count=1;              ^/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:389:9: warning: unused variable 'seat' [-Wunused-variable]    int seat, row, id, count=1;        ^/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:439:20: warning: unused variable 'id' [-Wunused-variable]    int seat, row, id, count=1;                   ^/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:501:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]            while((temp2 = line.find(" ", space)) >= 0)                         ~ ^~~~~~~~~~~~~~~~~~~~~/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:657:11: warning: variable 'id' is used uninitialized whenever 'while' loop exits because its condition is false [-Wsometimes-uninitialized]    while(getline(ifs, line))          ^~~~~~~~~~~~~~~~~~/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:674:8: note: uninitialized use occurs here    if(id == 0)       ^~/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:657:11: note: remove the condition if it is always true    while(getline(ifs, line))          ^~~~~~~~~~~~~~~~~~          true/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:654:23: note: initialize the variable 'id' to silence this warning    int numR, numS, id;                      ^                       = 0/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp:700:25: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]                space = line.find(" ", i);                      ~ ^~~~~~~~~~~~~~~~~7 warnings generated.7(36%IDEClangDiagnosticActivityLogMessage2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-456282980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^333#27#333#27#8699#0#14"Semantic Issue2(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^333#27#333#48#8699#20#3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^333#25#333#26#8697#0#-2@21"Unused variable 'row'-456282980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^388#14#388#14#10144#0#19"Unused Entity Issue--2@22"Unused variable 'seat'-456282980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^388#8#388#8#10138#0#19"Unused Entity Issue--2@20"Unused variable 'id'-456282980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^438#19#438#19#11210#0#19"Unused Entity Issue--2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-456282980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^500#27#500#27#12650#0#14"Semantic Issue2(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^500#27#500#48#12650#20#3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^500#25#500#26#12648#0#-2@94"Variable 'id' is used uninitialized whenever 'while' loop exits because its condition is false-456282980#18446744073709551615#0#3(2@29"Uninitialized use occurs here-456282980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^673#7#673#7#16137#0#14"Semantic Issue1(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^673#7#673#9#16137#0#-2@41"Remove the condition if it is always true-456282980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#10#15751#0#14"Semantic Issue1(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#28#15751#18#-2@52"Initialize the variable 'id' to silence this warning-456282980#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^653#22#653#22#15692#0#14"Semantic Issue1(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^653#22#653#22#15692#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#10#15751#0#14"Semantic Issue1(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#28#15751#17#-2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-456282980#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^699#24#699#24#16641#0#14"Semantic Issue2(3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^699#24#699#41#16641#16#3@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^699#22#699#23#16639#0#-0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/RyoheiFujisaki/Desktop/CIS-22B/Group%20Project/GroupProject/GroupProject/main.cpp0000000000000000^3196"CompileC build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o GroupProject/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-generated-files.hmap" "-I/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-own-target-headers.hmap" "-I/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-all-target-headers.hmap" -iquote "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-project-headers.hmap" "-I/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/DerivedSources/x86_64" "-I/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/DerivedSources" "-F/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug" -MMD -MT dependencies -MF "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.dia" -c "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/GroupProject/main.cpp" -o "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o"36"00B90A4D-EAF0-4B8F-AC64-A451B122FC50-
+
+CCompileC build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o /Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s456230058.711099
+e456230059.667725
+r1
+xCompileC
+xbuild/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o
+x/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:334:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o            while((temp2 = line.find(" ", space)) >= 0)
+o                         ~ ^~~~~~~~~~~~~~~~~~~~~
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:389:15: warning: unused variable 'row' [-Wunused-variable]
+o    int seat, row, id, count=1;
+o              ^
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:389:9: warning: unused variable 'seat' [-Wunused-variable]
+o    int seat, row, id, count=1;
+o        ^
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:439:20: warning: unused variable 'id' [-Wunused-variable]
+o    int seat, row, id, count=1;
+o                   ^
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:501:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o            while((temp2 = line.find(" ", space)) >= 0)
+o                         ~ ^~~~~~~~~~~~~~~~~~~~~
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:657:11: warning: variable 'id' is used uninitialized whenever 'while' loop exits because its condition is false [-Wsometimes-uninitialized]
+o    while(getline(ifs, line))
+o          ^~~~~~~~~~~~~~~~~~
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:674:8: note: uninitialized use occurs here
+o    if(id == 0)
+o       ^~
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:657:11: note: remove the condition if it is always true
+o    while(getline(ifs, line))
+o          ^~~~~~~~~~~~~~~~~~
+o          true
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:654:23: note: initialize the variable 'id' to silence this warning
+o    int numR, numS, id;
+o                      ^
+o                       = 0
+o/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:700:25: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o                space = line.find(" ", i);
+o                      ~ ^~~~~~~~~~~~~~~~~
+o7 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cppcc42b7aa8431bb41^b7eeaaab8431bb41^-2204"/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:334:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]            while((temp2 = line.find(" ", space)) >= 0)                         ~ ^~~~~~~~~~~~~~~~~~~~~/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:389:15: warning: unused variable 'row' [-Wunused-variable]    int seat, row, id, count=1;              ^/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:389:9: warning: unused variable 'seat' [-Wunused-variable]    int seat, row, id, count=1;        ^/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:439:20: warning: unused variable 'id' [-Wunused-variable]    int seat, row, id, count=1;                   ^/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:501:28: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]            while((temp2 = line.find(" ", space)) >= 0)                         ~ ^~~~~~~~~~~~~~~~~~~~~/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:657:11: warning: variable 'id' is used uninitialized whenever 'while' loop exits because its condition is false [-Wsometimes-uninitialized]    while(getline(ifs, line))          ^~~~~~~~~~~~~~~~~~/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:674:8: note: uninitialized use occurs here    if(id == 0)       ^~/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:657:11: note: remove the condition if it is always true    while(getline(ifs, line))          ^~~~~~~~~~~~~~~~~~          true/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:654:23: note: initialize the variable 'id' to silence this warning    int numR, numS, id;                      ^                       = 0/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp:700:25: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]                space = line.find(" ", i);                      ~ ^~~~~~~~~~~~~~~~~7 warnings generated.7(36%IDEClangDiagnosticActivityLogMessage2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-456230059#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^333#27#333#27#8699#0#14"Semantic Issue2(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^333#27#333#48#8699#20#3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^333#25#333#26#8697#0#-2@21"Unused variable 'row'-456230059#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^388#14#388#14#10144#0#19"Unused Entity Issue--2@22"Unused variable 'seat'-456230059#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^388#8#388#8#10138#0#19"Unused Entity Issue--2@20"Unused variable 'id'-456230059#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^438#19#438#19#11210#0#19"Unused Entity Issue--2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-456230059#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^500#27#500#27#12650#0#14"Semantic Issue2(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^500#27#500#48#12650#20#3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^500#25#500#26#12648#0#-2@94"Variable 'id' is used uninitialized whenever 'while' loop exits because its condition is false-456230059#18446744073709551615#0#3(2@29"Uninitialized use occurs here-456230059#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^673#7#673#7#16137#0#14"Semantic Issue1(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^673#7#673#9#16137#0#-2@41"Remove the condition if it is always true-456230059#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#10#15751#0#14"Semantic Issue1(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#28#15751#18#-2@52"Initialize the variable 'id' to silence this warning-456230059#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^653#22#653#22#15692#0#14"Semantic Issue1(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^653#22#653#22#15692#0#-1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#10#15751#0#14"Semantic Issue1(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^656#10#656#28#15751#17#-2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-456230059#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^699#24#699#24#16641#0#14"Semantic Issue2(3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^699#24#699#41#16641#16#3@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^699#22#699#23#16639#0#-0#0#0#-19%DVTDocumentLocation4@80"file://localhost/Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp0000000000000000^2884"CompileC build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o GroupProject/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/RyoheiFujisaki/Desktop/GroupProject    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-generated-files.hmap -I/Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-own-target-headers.hmap -I/Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-all-target-headers.hmap -iquote /Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/GroupProject-project-headers.hmap -I/Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/DerivedSources/x86_64 -I/Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/DerivedSources -F/Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug -MMD -MT dependencies -MF /Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.dia -c /Users/RyoheiFujisaki/Desktop/GroupProject/GroupProject/main.cpp -o /Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/main.o36"AC5FE6DA-F96D-4CEB-8809-ABC98CC43706-
+
+CLd "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/GroupProject" normal x86_64
+s456282980.339330
+e456282980.435324
+r1
+xLd
+x/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/GroupProject
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/GroupProject7ff756645332bb41^bd706f645332bb41^---0#0#0#--851"Ld build/Debug/GroupProject normal x86_64    cd "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug" "-F/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug" -filelist "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/GroupProject.LinkFileList" -mmacosx-version-min=10.8 -stdlib=libc++ -o "/Users/RyoheiFujisaki/Desktop/CIS-22B/Group Project/GroupProject/build/Debug/GroupProject"36"1CF96EDF-9274-4316-9965-CD55242F7173-
+
+CLd /Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug/GroupProject normal x86_64
+s456230059.675024
+e456230059.706908
+r1
+xLd
+x/Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug/GroupProject
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug/GroupProjectda3caeab8431bb41^a9f7b4ab8431bb41^---0#0#0#--731"Ld build/Debug/GroupProject normal x86_64    cd /Users/RyoheiFujisaki/Desktop/GroupProject    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug -F/Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug -filelist /Users/RyoheiFujisaki/Desktop/GroupProject/build/GroupProject.build/Debug/GroupProject.build/Objects-normal/x86_64/GroupProject.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -o /Users/RyoheiFujisaki/Desktop/GroupProject/build/Debug/GroupProject36"7BF03DDE-B7BE-4BB3-9C47-18782A053C9A-
+
